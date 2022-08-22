@@ -8,6 +8,8 @@ def index(request):
     # return HttpResponse('Hello from Python!')
     return render(request, "index.html")
 
+def plot(request):
+    return render(request, "neutrons_U238.html")
 
 def db(request):
 
