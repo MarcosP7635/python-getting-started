@@ -11,6 +11,12 @@ def index(request):
 def plot(request):
     return render(request, "neutrons_U238.html")
 
+def MathJax(request):
+    return render(request, "MathJax.js")
+
+def plotly_js(request):
+    return render(request, "plotly-2.3.0.min.js")
+
 def db(request):
 
     greeting = Greeting()

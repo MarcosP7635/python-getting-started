@@ -19,4 +19,7 @@ urlpatterns = [
     path("db/", hello.views.db, name="db"),
     path("admin/", admin.site.urls),
     path("neutrons-U238", hello.views.plot, name="plot")
+    path("MathJax", hello.views.MathJax, name="MathJax")
+    path("plotly_js", hello.views.plotly_js, name="plotly_js")
+
 ]
